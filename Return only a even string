@@ -1,0 +1,26 @@
+using System;
+
+namespace Solution
+{
+  public class SolutionClass
+  {
+    public static string EvenOrOdd(int number)
+    {
+      
+     // Define Even & Odd as strings "Even" & "Odd".
+      String Even = "Even";
+      String Odd = "Odd";
+      
+      // The % is the Modulo opperator that is the power of.
+      if (number % 2 == 0)
+        {
+        return Even;
+      }
+      // No need to write more code as it will return false if Even is not true.
+      else
+        {
+        return Odd;
+      }
+    }
+  }
+}
